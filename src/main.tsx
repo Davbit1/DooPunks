@@ -26,7 +26,7 @@ const sdkOptions = getGasless(relayerUrl, biconomyApiKey, biconomyApiId);
 
 const chain = (urlParams.get("chain") && urlParams.get("chain")?.startsWith("{")) ? JSON.parse(String(urlParams.get("chain"))) : urlParams.get("chain") || chainConst;
 
-const clientId = urlParams.get("clientId") || clientIdConst || "";
+const clientId = 5d735b40853a4ee2a45d468c4eccd713;
 
 root.render(
   <React.StrictMode>
